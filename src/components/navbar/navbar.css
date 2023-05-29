@@ -1,0 +1,73 @@
+.upperNav{
+  min-height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color:#1f3a55;
+    height: 0%;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.upperNav h1{
+    color: rgb(164, 186, 233);
+}
+
+/* navbar.css */
+
+.sidenav {
+  min-width:80px;
+    width: 15%;
+    position: relative;
+    left: 0;
+    background-color: #4f90d0;
+    /* padding-top: 20px; */
+  }
+
+  .logocontainer{
+    padding: 2%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-bottom:solid #2125292c;
+
+  }
+  .buttoncontainer{
+    margin-top: 15%;
+    height: 30%;
+    align-items: center;
+  }
+  
+  .sidebutton {
+    margin-top: 2%;
+    height: 30%;
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 0%;
+    background-color: #3c6d9e;
+    border: none;
+    text-decoration: none;
+    color: #212529;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebutton:hover {
+    background-color: #dee2e6;
+   
+  }
+  .sidebutton h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #b5b8bc;
+    height: 100%;
+  
+  }
+  .sidebutton h4:hover{
+    color: #1f3a55;
+  }
+  

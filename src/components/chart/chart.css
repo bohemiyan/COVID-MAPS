@@ -1,0 +1,54 @@
+.flact {
+    margin: 5px;
+    margin-top: 6%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.451);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.451);
+    max-width: 95%;
+    width: 100%;
+  }
+  
+  .flact canvas {
+    height: 500px;
+    /* width: 90%; */
+  }
+  
+  .mapcontainer {
+    margin: 5px;
+    margin-top: 6%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.451);
+    padding: 10px;
+   
+  }
+  .mapcontainer MapContainer{
+    height: '400px';
+    width: '100%';
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 800px) {
+    .flact {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .flact {
+      max-width: 400px;
+    }
+  
+    .flact canvas {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .flact {
+      max-width: 300px;
+    }
+  
+    .flact canvas {
+      height: 200px;
+    }
+  }
+  
